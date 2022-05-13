@@ -1,0 +1,40 @@
+<!-- <table>
+    <tr *ngFor="let x of ReportListData">
+        <td>{{x[0]}}</td>
+        <td>{{x[1]}}</td>
+        <td>{{x[2]}}</td>
+        <td>{{x[3]}}</td>
+    </tr>
+</table> -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+<div class="site">
+    <div class="container">
+        <h2>My Reports</h2>
+        <ul class="responsive-table">
+            <li class="table-header">
+                <div class="col col-1">Report ID</div>
+                <div class="col col-2">Customer Name</div>
+                <div class="col col-3">Payment</div>
+                <div class="col col-4">Date</div>
+                <div class="col col-5">Picture</div>
+            </li>
+            <li class="table-row" *ngFor="let x of ReportListData">
+                <div class="col col-1" data-label="Job Id">{{x.id}}</div>
+                <div class="col col-2" data-label="Customer Name">{{x.TargetName}}</div>
+                <div class="col col-3" data-label="Price">{{x.Price}}</div>
+                <div class="col col-4" data-label="Date">{{x.Date}}</div>
+                <div class="col col-5" data-label="Picture" (click)="ShowImage(x.PictureURL)" style="cursor: pointer;">Image</div>
+                <!-- <div class="col col-5" data-label="Picture" style="cursor: pointer;">Image</div> -->
+            </li>
+        </ul>
+    </div>    
+</div>
+
+<div id="modal" class="ModalBg mvanish">
+    <i id="ModalClosed" class="fas fa-times" (click)="CloseModal()"></i>
+    <div class="Modal">
+        <img id="ModalPic" src="" alt="Img">
+        <!-- <img id="ModalPic" src="C:\Users\Szabolcs\Desktop\1650750033282Tom Clancy's Rainbow Six® Siege2021-1-26-17-53-24.jpg" alt="Img"> -->
+    </div>
+    <!-- <img id="modalpic" src="http://localhost:2004/Images/1650718944895K%C3%A9perny%C5%91felv%C3%A9tel%20(1).png" alt="Img"> -->
+</div>

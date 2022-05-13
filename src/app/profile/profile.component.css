@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+.main {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    /* background-color: #960e00; */
+}
+
+
+.ProfileDetails {
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 2vh;
+    margin-left: 2vh;
+    /* width: 85vw; */
+    width: 35vw;
+}
+
+.Container {
+    display: flex;
+    justify-content: space-between;
+    width: 20vw;
+}
+
+#ProfileImg {
+    width: 10vh;
+    height: 10vh;
+    padding: 0.5rem;
+
+    /* width: 50%; */
+    /* height: 50%; */
+}
+
+
+.Datas {
+    padding: 1em;
+}
+
+.Desc {
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+
+
+.Content {
+    /* background-color: #960e00; */
+    /* width: 82vw; */
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding: 1rem;
+}
+
+
+.Ranks {
+    /* margin-top: 2vh; */
+    margin-left: 2vh;
+    background-color: white;
+    text-align: center;
+    padding: 0.5rem;
+    width: 30vw;
+    border-radius: 5px;
+}
+
+.Title {
+    font-size: 2vh;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+.BadgeContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+    /* background-color: #4796b3; */
+    /* background-color: #096484; */
+}
+
+.blue {
+    background-color: #4796b3;
+}
+
+.red {
+    background-color: #960e00;
+}
+
+.yellow {
+    background-color: #ead665;
+}
+
+.green {
+    background-color: #47e77a;
+}
+
+#BadgeIcon {
+    /* margin-top: 0.9vh; */
+    font-size: 3vh;
+    margin-right: 0.5vw;
+}
+
+/* justify-content: center;
+    text-align: center;
+    align-items: center; */
+
+
+/* Charts */
+.charts {
+    width: 30vw;
+    /* margin-left: 20vw; */
+    /* margin-top: -210px; */
+}
+.MyReportsGraph {
+    /* margin-left: 16vw; */
+    border-radius: 5px;
+    background-color: white;
+}
+
+.text {
+    font-size: 2vh;
+}
+
+
+.RightContent {
+    /* background-color: #47e77a; */
+    margin-left: 15vw;
+    margin-top: 2vh;
+}
+
+.charts {
+    display: block;
+}
+
+.WageGraph {
+    margin-top: 5vh;
+}
+
+.highcharts-credits {
+    display: none !important;
+}

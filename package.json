@@ -18,6 +18,12 @@
     "@angular/platform-browser": "~13.3.0",
     "@angular/platform-browser-dynamic": "~13.3.0",
     "@angular/router": "~13.3.0",
+    "angular-highcharts": "^13.0.1",
+    "chart.js": "^3.7.1",
+    "highcharts": "^10.0.0",
+    "highcharts-angular": "^3.0.0",
+    "ngx-cookie-service": "^13.2.0",
+    "ngx-toastr": "^14.3.0",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.11.4"

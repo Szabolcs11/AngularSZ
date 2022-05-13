@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.theform {
+    background-color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10vh;
+    padding: 1.5em;
+    border-radius: 5px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
+    box-shadow: 0 0 3px black;
+}
+
+input {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    height: 4vh;
+    width: 30vw;
+    font-size: 3vh;
+    text-align: center;
+    margin-bottom: 2vh;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+}
+
+input::placeholder {
+    color: black
+}
+
+p {
+    font-size: 4vh;
+}
+
+#uploadicon {
+    font-size: 3vh;
+    margin-left: 1vh;
+}
+
+.text {
+    font-size: 2.6vh;
+    margin-left: 2vh;
+}
+
+.image-upload {
+    display: flex;
+    background-color: #7692FF;
+    margin-bottom: 2vh;
+    height: 4vh;
+    align-items: center;
+    text-align: center;
+    justify-content: flex-start;
+    border-radius: 5px;
+    border-style: black;
+    border-width: 2px;
+    border-style: solid;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #7692FF;
+    height: 4vh;
+    width: 30vw;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: black;
+    cursor: pointer;
+    margin-top: 1vh;
+    font-size: 3vh;
+}
+
+
+
+.image-upload>input {
+    display: none;
+}

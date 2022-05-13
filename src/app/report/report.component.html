@@ -1,0 +1,31 @@
+
+<div class="theform">
+    <form [formGroup]="reportform" (ngSubmit)="submitreport()">
+        <p>New Report</p>
+        <input type="text" placeholder="TargetName" formControlName="TargetName"/>
+        <input type="number" placeholder="Pice" formControlName="Price"/>
+            <input type="file" formControlName="Img" (change)="onImgSelected($event)" accept="image/png, image/gif, image/jpeg"/>
+        <input type="text" placeholder="Other" formControlName="Other"/>
+        <button type="submit">Send</button>
+    </form>
+</div>
+
+
+
+
+<!-- <div class="theform">
+    <form [formGroup]="reportform" (ngSubmit)="submitreport()">
+        <p>New Report</p>
+        <input type="text" placeholder="TargetName" formControlName="TargetName"/>
+        <input type="number" placeholder="Pice" formControlName="Pice"/>
+        <div class="image-upload">
+            <label for="file-input">
+                <i id="uploadicon" class="fas fa-upload" aria-hidden="true"></i>
+                <label class="text">Uppload</label>
+            </label>
+            <input type="file" formControlName="Img" (change)="onImgSelected($event)" accept="image/png, image/gif, image/jpeg"/>
+        </div>
+        <input type="text" placeholder="Other" formControlName="Other"/>
+        <button type="submit">Send</button>
+    </form>
+</div> -->

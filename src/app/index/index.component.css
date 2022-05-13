@@ -1,0 +1,229 @@
+/* Szaby */
+
+.index {
+    /* margin-right: 0.5vh; */
+  /* width: 90vw; */
+  /* width: 100%; */
+  /* height: 97vh; */
+
+  /* height: 98.5vh; */
+  /* background-color: #f4f3ef;
+  display: flex;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px; */
+}
+
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600,700");
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
+
+.white-color {
+  color: #fff; }
+
+.flat-color-1 {
+  color: #00c292; }
+
+.flat-color-2 {
+  color: #ab8ce4; }
+
+.flat-color-3 {
+  color: #03a9f3; }
+
+.flat-color-4 {
+  color: #fb9678; }
+
+.flat-color-5 {
+  color: #66bb6a; }
+
+.flat-color-6 {
+  color: #5c6bc0; }
+
+
+body {
+  display: table;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  width: 100%; 
+}
+
+
+.content {
+  /* background-color: #f4f3ef; */
+  /* border-color: black; */
+  /* border-style: solid; */
+  /* border-width: 1px; */
+  /* float: left; */
+  /* padding: 1.875em; */
+  /* padding: 1.6em; */
+  /* padding-right: 1em; */
+  /* margin-right: 10px; */
+  /* border-radius: 5px; */
+  /* Szaby */
+  /* height: 115%; */
+  /* height: 92.3vh; */
+  /* height: 91vh; */
+  /* width: 80%; */
+  /* height: 100vh; */
+  /* display: flex; */
+  /* padding-top: 1.5em; */
+  /* padding-left: 1em; */
+  display: block;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.card {
+  width: 20vw;
+  margin-left: 10px;
+  margin-right: 10px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 0;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.08);
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.08); }
+
+  .card .card-left {
+    width: 60%; }
+  .card .card-right {
+    width: 40%; }
+  .card .card-body {
+    float: left;
+    padding: 1.25em;
+    position: relative;
+    width: 100%; }
+
+
+
+.stat-widget-five {
+  min-height: 60px; 
+  display: flex;
+  align-items: center;
+}
+  .stat-widget-five .stat-icon {
+    font-size: 50px;
+    line-height: 50px;
+    position: absolute;
+    left: 30px;
+    top: 20px; }
+  .stat-widget-five .stat-content {
+    margin-left: 100px; }
+  .stat-widget-five .stat-text {
+    color: #455a64;
+    font-size: 20px; }
+  .stat-widget-five .stat-heading {
+    color: #99abb4;
+    font-size: 14px; }
+
+
+
+/* Szaby */
+
+.stat-icon {
+  margin-top: 5px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  /* margin-top: -30vh; */
+  margin-top: -15%;
+}
+
+.card {
+  /* box-shadow: inset 0 0 5px white; */
+  box-shadow: 0 0 3px rgb(0, 0, 0);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+}
+
+/* Chart */
+
+.charts {
+  margin-top: 5vh;
+  width: 85vw;
+  /* height: 20vh; */
+}
+
+
+.ezagrafikon {
+  /* width: 100%; */
+  /* height: 100%; */
+  display: flex;
+  /* width: 82vw !important; */
+  /* height: 50vh !important; */
+  border-radius: 10px;
+  font-family: 'Montserrat', sans-serif;
+  box-shadow: 0 0 5px white;
+
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 5px;
+  box-shadow: 0 0 3px rgb(0, 0, 0);
+}
+
+.highcharts-background {
+  background-color: #455a64;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: #5c6bc0;
+}
+
+.highcharts-figure,
+.highcharts-data-table table {
+  min-width: 360px;
+  max-width: 800px;
+  margin: 1em auto;
+}
+
+.highcharts-data-table table {
+  font-family: Verdana, sans-serif;
+  border-collapse: collapse;
+  border: 1px solid #ebebeb;
+  margin: 10px auto;
+  text-align: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.highcharts-data-table caption {
+  padding: 1em 0;
+  font-size: 1.2em;
+  color: #555;
+}
+
+.highcharts-data-table th {
+  font-weight: 600;
+  padding: 0.5em;
+}
+
+.highcharts-data-table td,
+.highcharts-data-table th,
+.highcharts-data-table caption {
+  padding: 0.5em;
+}
+
+.highcharts-data-table thead tr,
+.highcharts-data-table tr:nth-child(even) {
+  background: #f8f8f8;
+}
+
+.highcharts-data-table tr:hover {
+  background: #f1f7ff;
+}
+
+.highcharts-button-symbol {
+  display: none;
+}
+
+.highcharts-credits {
+  display: none;
+}
+
+.highcharts-credits {
+  display: none;
+}

@@ -1,0 +1,92 @@
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+<div class="container" id="sidebarcontainer">
+    
+
+    <div class="navbar light">
+        <div class="header">
+            <p id="titletext" class="titletext headercolor">Home</p>
+            <i onclick="ChangeNavbarStatus()" id="hiconl" class="fas fa-bars"></i>
+        </div>
+        <div class="component active" (click)="Home()" id="Home">
+            <i id="iconl" class="fas fa-home"></i>
+            <p class="navbartext lightt">Home</p>
+        </div>
+        <div class="component sec" (click)="Report()" id="Report">
+            <i id="iconl" class="fas fa-plus-circle"></i>
+            <p class="navbartext lightt">Report</p>
+        </div>
+        <div class="component third" (click)="Reports()" id="Reports">
+            <i id="iconl" class="fas fa-list"></i>
+            <p class="navbartext lightt">MyReports</p>
+            <!-- <p class="navbartext lightt">AllReport</p> -->
+        </div>
+        <div class="component" (click)="Profile()" id="Profile">
+            <i id="iconl" class="fas fa-user"></i>
+            <p class="navbartext lightt">Profile</p>
+        </div>
+        <div class="component" (click)="SignOut()">
+            <i id="iconl" class="fas fa-sign-out-alt"></i>
+            <p class="navbartext lightt">Logout</p>
+        </div>
+
+        <!-- <div class="bottomcomponent bottom" (click)="SignOut()">
+            <i id="iconl" class="fas fa-sign-out-alt"></i>
+            <p class="navbartext lightt">Logout</p>
+        </div> -->
+    </div>
+
+    <!-- <div class="navbar">
+        <div class="header">
+            <p id="titletext" class="titletext">Home</p>
+            <i onclick="ChangeNavbarStatus()" id="hicon" class="fas fa-bars"></i>
+        </div>
+        <div class="component active" (click)="Home()" id="Home">
+            <i id="icon" class="fas fa-home"></i>
+            <p class="navbartext">Home</p>
+        </div>
+        <div class="component" (click)="Report()" id="Report">
+            <i id="icon" class="fas fa-plus-circle"></i>
+            <p class="navbartext">Report</p>
+        </div>
+        <div class="component" (click)="Reports()" id="Reports">
+            <i id="icon" class="fas fa-list"></i>
+            <p class="navbartext">AllReport</p>
+        </div>
+        <div class="component" (click)="Profile()" id="Profile">
+            <i id="icon" class="fas fa-user"></i>
+            <p class="navbartext">Profile</p>
+        </div>
+        <div class="component bottom" (click)="SignOut()">
+            <i id="icon" class="fas fa-sign-out-alt"></i>
+            <p class="navbartext">Logout</p>
+        </div>
+    </div> -->
+
+    <!-- <div class="container">
+        <div class="navbar closed">
+            <div class="header">
+                <i id="hicon" class="fas fa-bars"></i>
+            </div>
+            <div class="closedcomponent activec">
+                <i id="closedicon" class="fas fa-home"></i>
+            </div>
+            <div class="closedcomponent">
+                <i id="closedicon" class="fas fa-plus-circle"></i>
+            </div>
+            <div class="closedcomponent">
+                <i id="closedicon" class="fas fa-list"></i>
+            </div>
+            <div class="closedcomponent activec">
+                <i id="closedicon" class="fas fa-user"></i>
+            </div>
+            <div class="closedcomponent bottom">
+                <i id="closedicon" class="fas fa-sign-out-alt"></i>
+            </div>
+        </div>
+    </div> -->
+    <!-- <div class="parent">
+        <div id="ez" class="child" onclick="test()">
+
+        </div>
+    </div> -->
+</div>

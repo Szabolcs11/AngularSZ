@@ -1,0 +1,63 @@
+<div class="main">
+    <div class="LeftContent">
+        <div class="ProfileDetails">
+            <div class="Container">
+                <div class="ProfilePicContainer">
+                    <img id="ProfileImg" src={{ProfileImgSrc}} alt="ProfilePic" style="border-radius: 50%;">
+                </div>
+                <div class="Datas">
+                    <p class="text">{{Userdatas?.Username}}</p>
+                    <!-- <p>Kekenj Sabolc</p> -->
+                    <p class="text">{{Userdatas?.Email}}</p>
+                    <!-- <p>CEO</p> -->
+                </div>
+            </div>
+            <p class="Desc">Owner</p>
+        </div>
+        <div class="Ranks">
+            <div class="Title">
+                <p>MyBadges</p>
+            </div>
+            <div class="Badges">
+                <div class="BadgeContainer yellow">
+                    <i id="BadgeIcon" class="fas fa-crown"></i>
+                    <p>Owner</p>
+                </div>
+                <div class="BadgeContainer red">
+                    <i id="BadgeIcon" class="fas fa-cogs"></i>
+                    <p>Programer</p>
+                </div>
+                <div class="BadgeContainer blue">
+                    <i id="BadgeIcon" class="fas fa-user-shield"></i>
+                    <p>Moderator</p>
+                </div>
+                <div class="BadgeContainer green">
+                    <i id="BadgeIcon" class="fas fa-shipping-fast"></i>
+                    <p>Weekly Best</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="RightContent">
+        <div class="charts">
+            <div class="chartrounded">
+                <highcharts-chart
+                class="MyReportsGraph" 
+                [Highcharts]="MyReportsHighcharts"
+                [options]="MyReportsOption"
+                style="width: 100%; height: 400px; display: block;"
+                ></highcharts-chart>
+            </div>
+            <div class="WageGraph">
+                <highcharts-chart
+                class="MyWageGraph" 
+                [Highcharts]="MyWageHighcharts"
+                [options]="MyWageOptions"
+                style="width: 100%; height: 400px; display: block;"
+                ></highcharts-chart>
+            </div>
+        </div>
+    </div>
+</div> 
+
